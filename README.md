@@ -1,2 +1,3 @@
 # dldl.io
-Source code for dldl.io single page website.
+
+Source code for the *dldl.io* single page website.
