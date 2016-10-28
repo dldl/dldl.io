@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+  <div class="liste_sites">
+    {{- range first 10 .Data.Pages }}
+      <div class="site"><a href={{ .Params.link }}>{{ .Title }}</a></div>
+    {{- end }}
+  </div>
+{{ partial "footer.html" . }}

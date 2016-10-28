@@ -1,0 +1,12 @@
+.liste_sites
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.site
+{
+  background-color: blue;
+  width:300px;
+  height: 300px
+}
