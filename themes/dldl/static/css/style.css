@@ -1,3 +1,12 @@
+body
+{
+background-color: #dedede;
+/*background-image: url("../images/logo.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 500px 500px;*/
+}
+
 .liste_sites
 {
   display: flex;
@@ -6,7 +15,7 @@
 
 .site
 {
-  background-color: blue;
+  background-color: #f29928;
   width:300px;
   height: 300px
 }
