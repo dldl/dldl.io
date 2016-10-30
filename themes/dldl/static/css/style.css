@@ -1,21 +1,27 @@
 body
 {
-background-color: #dedede;
-/*background-image: url("../images/logo.svg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: 500px 500px;*/
+  font-family: "Tahoma", Times, serif;
+  background-color: #eeeeee;
+  /*background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px 500px;*/
+}
+.header
+{
+  text-align: center;
 }
 
-.liste_sites
+.sites_list
 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .site
 {
-  background-color: #f29928;
   width:300px;
-  height: 300px
+  height: 300px;
+  margin: 5px 5px 5px 5px;
+
 }

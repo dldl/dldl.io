@@ -1,5 +1,8 @@
 {{ partial "header.html" . }}
-  <div class="liste_sites">
+  <div class="header">
+    <h1>dldl.io</h1>
+  </div>
+  <div class="sites_list">
     {{- range first 10 .Data.Pages }}
       <div class="site"><a href={{ .Params.link }}>{{ .Title }}</a></div>
     {{- end }}
