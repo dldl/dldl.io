@@ -1,27 +1,44 @@
 body
 {
   font-family: "Tahoma", Times, serif;
-  background-color: #eeeeee;
+  background-color: white;
   /*background-image: url("../images/logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 500px 500px;*/
 }
+
+a {
+  color: white;
+  text-decoration:none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 .header
 {
   text-align: center;
 }
 
-.sites_list
+.sites-list
 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .site
 {
-  width:300px;
+  width: 500px;
   height: 300px;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+}
 
+.up-site
+{
+  width: 100%;
+  height: 20%;
 }
